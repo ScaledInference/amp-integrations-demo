@@ -1,0 +1,142 @@
+$width: 440px;
+
+*{
+  box-sizing:border-box;
+  font-family: "San Francisco", "Helvetica Neue", "Roboto", "Sans-Serif";
+  font-weight:300;
+}
+body{
+  margin:30px;
+  padding:10px;
+}
+body.demo {
+  background-color: #7f7f7f;
+  color: #313131;
+}
+
+.btn {
+  display:inline-block;
+  border:.01em solid #777;
+  border-width:7px;
+  border-color:#df7c1f;
+  margin:10px;
+  padding:10px;
+  height:145px;
+  font-size:15px;
+}
+
+.card{
+  display:flex;
+  border:.01em solid #777;
+  border-left-width:12px;
+  border-left-color:rgb(181,139,75);
+  margin:10px;
+  padding:10px;
+  height:145px;
+  width:$width;
+  align-items:center;
+
+  &:nth-child(1){
+    border-left-color:tan;
+  }
+  &:nth-child(2){
+    border-left-color:orange;
+  }
+  &:nth-child(3){
+    border-left-color:rgb(56,160,112);
+  }
+  .description{
+    width:60%;
+    overflow-x:wrap;
+
+    .title{
+      font-weight:500;
+    }
+    p{
+      font-size:15px;
+    }
+  }
+  .result{
+    width:40%;
+    text-align:center;
+
+    .emoji{
+      font-size:70px;
+    }
+    .label{
+      font-size:16px;
+    }
+    .hello{
+      font-size:50px;
+
+      &.hidden{
+        display: none;
+      }
+      &.regular{
+        color: black;
+      }
+      &.fun{
+        color:lime;
+        font-weight:bold;
+        font-family:"Rock Salt";
+        font-size:30px;
+      }
+      &.classic{
+        color:#36a;
+        font-family:"Times New Roman";
+      }
+    }
+  }
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 300px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+/* The Close Button */
+.result {
+    color: #aa7faa;
+    float: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.modal-text {
+    color: #313131;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+/* The Close Button */
+.close {
+    color: #313131;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Amp Context Demo Scenarios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="demo">
+  <div class="container">
+    <img src="https://scaledinference.frb.io/assets/img/uploads/si-logo-with-type.svg"  width= 220px>
+    <div>
+        <button class="btn demo1">First page load</button>
+        <button class="btn demo2">Ajax request</button>
+        <button class="btn demo3">Browser Thin client</button>
+        <button class="btn demo4">Browser Thick client</button>
+    </div>
+  </div>
+  <script>
+    document.querySelector('.demo1')
+        .addEventListener("click", function(){
+            redirect("demos/nodeThin");
+    },false);
+    document.querySelector('.demo2')
+        .addEventListener("click", function(){
+            redirect("demos/ajaxRequest");
+    },false);
+    document.querySelector('.demo3')
+        .addEventListener("click", function(){
+            redirect("demos/ampBrowserThin");
+    },false);
+    document.querySelector('.demo4')
+        .addEventListener("click", function(){
+            redirect("demos/ampBrowserThick");
+        },false);
+    function redirect(path){
+        var location = window.location;
+        var newLocation = location.origin + '/' + path;
+        location.href = newLocation;
+    }
+  </script>
+</body>
+</html>
