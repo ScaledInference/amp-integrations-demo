@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ScaledInference/amp-node-quickstart.git"
+    "url": "git+https://github.com/ScaledInference/amp-integrations-demo.git"
   },
   "author": "Steve Mask",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ScaledInference/amp-node-quickstart/issues"
+    "url": "https://github.com/ScaledInference/amp-integrations-demo/issues"
   },
-  "homepage": "https://github.com/ScaledInference/amp-node-quickstart#readme",
+  "homepage": "https://github.com/ScaledInference/amp-integrations-demo#readme",
   "dependencies": {
     "amp-node": "^1.0.7",
     "cookie-parser": "^1.4.3",
