@@ -1,6 +1,6 @@
 {
-  "name": "amp-node-quickstart",
-  "version": "1.0.1",
+  "name": "amp-integrations-demo",
+  "version": "1.0.0",
   "description": "Integrations demo for amp.ai",
   "main": "src/app.js",
   "scripts": {
