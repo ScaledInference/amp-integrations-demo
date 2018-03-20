@@ -1,6 +1,6 @@
 {
   "name": "amp-integrations-demo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Integrations demo for amp.ai",
   "main": "src/app.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "url": "git+https://github.com/ScaledInference/amp-integrations-demo.git"
   },
   "author": "Steve Mask",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ScaledInference/amp-integrations-demo/issues"
   },
