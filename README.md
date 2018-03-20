@@ -2,10 +2,10 @@
 
 ## Usage Instructions
 ### Install NPM and Node
-> sudo apt-get update
-> sudo apt-get install npm
-> sudo npm install -g n
-> sudo n latest
+> * sudo apt-get update
+> * sudo apt-get install npm
+> * sudo npm install -g n
+> * sudo n latest
 
 ### Initialize a directory
 > npm init
