@@ -14,7 +14,7 @@
 > npm i --save amp-integrations-demo
 
 ### Add the shortcut to your package.json
-Add 
+Add the following to the scripts section of package.json
 > "ampdemo" : "node node_modules/amp-integrations-demo/src/app.js"
 
 ### Run the demo
