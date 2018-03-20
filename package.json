@@ -1,5 +1,5 @@
 {
-  "name": "amp-node-quickstart",
+  "name": "amp-integrations-demo",
   "version": "1.0.1",
   "description": "Integrations demo for amp.ai",
   "main": "src/app.js",
