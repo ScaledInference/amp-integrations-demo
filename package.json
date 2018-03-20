@@ -1,7 +1,7 @@
 {
   "name": "amp-node-quickstart",
   "version": "1.0.1",
-  "description": "Quick Start Project for Node Thin Client",
+  "description": "Integrations demo for amp.ai",
   "main": "src/app.js",
   "scripts": {
     "app": "node src/app.js",
