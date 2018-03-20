@@ -19,3 +19,6 @@ Add the following to the scripts section of package.json
 
 ### Run the demo
 > npm run ampdemo key=<projectKey> domain=<amp-agent endpoint>
+
+### View the demo on the browser
+Use your favorite browser to visit http://localhost:5150
